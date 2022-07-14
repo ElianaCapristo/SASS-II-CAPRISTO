@@ -1,0 +1,28 @@
+@import "variables";
+@import "grid";
+@import "mixing";
+@import "btn";
+
+
+.card{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    @include propiedades(500px, auto,#000);
+    .text-card{
+        margin-left: 10px;
+    }
+    button{
+    @extend .btn;
+    background-color: deeppink;
+    }
+}
+
+.card-vertical{
+    @extend .card;
+    flex-direction: column;
+
+}
+
+
+
