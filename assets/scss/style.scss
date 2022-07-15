@@ -21,6 +21,7 @@
 .card-vertical{
     @extend .card;
     flex-direction: column;
+    @include propiedades (200px, auto #000)
 
 }
 
