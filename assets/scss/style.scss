@@ -13,15 +13,15 @@
         margin-left: 10px;
     }
     button{
-    @extend .btn;
-    background-color: deeppink;
+        @extend .btn;
+        background-color: deeppink;
     }
 }
 
 .card-vertical{
     @extend .card;
     flex-direction: column;
-    @include propiedades (200px, auto #000)
+    @include propiedades (200px,auto,#000)
 
 }
 

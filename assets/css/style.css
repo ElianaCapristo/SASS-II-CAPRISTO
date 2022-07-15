@@ -97,4 +97,47 @@
 
 .justify-content-between {
   justify-content: space-between;
+}
+
+.btn, .card button, .card-vertical button, .btn-terciario, .btn-secundario, .btn-primario {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  width: 200px;
+  height: auto;
+  color: claro;
+}
+
+.btn-primario {
+  background-color: #FC536F;
+}
+
+.btn-secundario {
+  background-color: #FFE453;
+}
+
+.btn-terciario {
+  background-color: #1DEBD2;
+}
+
+.card, .card-vertical {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  color: #000;
+}
+.card .text-card, .card-vertical .text-card {
+  margin-left: 10px;
+}
+.card button, .card-vertical button {
+  background-color: deeppink;
+}
+
+.card-vertical {
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,8 @@
 .btn{
-    padding: map-get($btn, padding );
-    border: map-get($btn,bordes );
-    border-radius: map-get(btn,radio);
-    @include propiedades (200px,auto,#000)
+    padding: map-get($btn , padding );
+    border: map-get($btn , bordes );
+    border-radius: map-get($btn , radio );
+    @include propiedades(200px,auto,claro );
 
 }
 
